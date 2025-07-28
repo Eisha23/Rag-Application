@@ -1,11 +1,6 @@
-
-streamlit
-langchain
-google-generativeai
-python-dotenv
-chromadb
-PyMuPDF
-langchain-google-genai
-langchain[chromadb]
-
-
+streamlit==1.35.0
+python-dotenv==1.0.1
+langchain[chromadb]==0.2.3
+langchain-google-genai==0.0.8
+chromadb==0.4.24
+PyMuPDF==1.24.3
