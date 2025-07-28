@@ -4,3 +4,4 @@ langchain[chromadb]==0.2.3
 langchain-google-genai==0.0.8
 chromadb==0.4.24
 PyMuPDF==1.24.3
+langchain-community 
