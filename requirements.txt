@@ -6,5 +6,6 @@ python-dotenv
 chromadb
 PyMuPDF
 langchain-google-genai
+langchain[chromadb]
 
 
