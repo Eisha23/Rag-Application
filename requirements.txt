@@ -1,6 +1,10 @@
+
 streamlit
 langchain
 google-generativeai
 python-dotenv
 chromadb
 PyMuPDF
+langchain-google-genai
+
+
