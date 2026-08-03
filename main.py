@@ -8,16 +8,11 @@ import streamlit as st
 from dotenv import load_dotenv
 import tempfile
 from langchain.prompts import PromptTemplate
-from langchain.schema import Document
-import re
-from langchain.text_splitter import RecursiveCharacterTextSplitter, TokenTextSplitter
-from langchain_community.document_loaders import PyMuPDFLoader
-from langchain.chains import LLMChain, ConversationalRetrievalChain
-from langchain.retrievers.multi_query import MultiQueryRetriever
+from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain.chains import ConversationalRetrievalChain
 from langchain.retrievers import EnsembleRetriever
 from langchain.memory import ConversationBufferMemory
-from langchain.chains.qa_with_sources import load_qa_with_sources_chain
-from langchain_community.vectorstores import Chroma, FAISS
+from langchain_community.vectorstores import FAISS
 from langchain_community.document_loaders import PyPDFLoader, TextLoader
 from langchain_community.retrievers import BM25Retriever
 from langchain.chat_models import ChatOpenAI
