@@ -27,7 +27,7 @@ warnings.filterwarnings("ignore", category=DeprecationWarning)
 
 
 # Load environment variables
-load_dotenv(dotenv_path="/mnt/c/Users/hassa/Downloads/rag_app/.env")
+load_dotenv()
 openai_key = os.getenv("OPENAI_API_KEY")
 
 
